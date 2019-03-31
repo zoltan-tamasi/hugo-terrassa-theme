@@ -6,14 +6,15 @@
     --subheader: 1.414rem;
 
     /* Colors */
-    --primary: #ffc107;
-    --primary-dark: #ffa000;
+    --primary: #dbc2c9;
+    --primary-dark: #a23532;
     --primary-light: #ffecb3;
-    --primary-text: #212121;
-    --secondary-text: #333333;
+    --primary-text: #000000;
+    --secondary-text: #bd3f3f;
     --accent: #536dfe;
     --divider: #bdbdbd;
     --white: #fdfdfd;
+    --link-text: #ffdbdb;
 
     /* Breackpoints */
     --sm: 576px;
@@ -32,6 +33,10 @@ a:hover {
 
 body {
     color: var(--primary-text);
+    background-image: url(/static/handpando-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 figcaption {
