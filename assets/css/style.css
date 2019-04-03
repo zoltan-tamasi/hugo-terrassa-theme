@@ -1,22 +1,28 @@
 @font-face {
-  font-family: "Verveine";
+  	font-family: "Verveine";
 	src:
-	  url("/fonts/Verveine W01 Regular.ttf") format("ttf"),
-  	url("/fonts/Verveine W01 Regular.woff") format("woff");
+	  	url("/fonts/Verveine W01 Regular.ttf") format("ttf"),
+		url("/fonts/Verveine W01 Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Kartago";
+  	font-family: "Kartago";
 	src:
-	  url("/fonts/Kartago.ttf") format("ttf"),
-  	url("/fonts/Kartago.woff") format("woff");
+		url("/fonts/Kartago.ttf") format("ttf"),
+		url("/fonts/Kartago.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Noteworthy";
+  	font-family: "Noteworthy";
 	src:
-	  url("/fonts/Noteworthy Light.ttf") format("ttf"),
-  	url("/fonts/Noteworthy Light.woff") format("woff");
+	  	url("/fonts/Noteworthy Light.ttf") format("ttf"),
+  		url("/fonts/Noteworthy Light.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Trajan";
+	src:
+		url("/fonts/Trajan-Pro-Regular.woff") format("woff");
 }
 
 /* HEADER */
@@ -42,7 +48,7 @@
 
 .header__title__link {
 	color: var(--primary);
-	font-family: "Kartago";
+	font-family: "Trajan";
 }
 
 .header__title__logo {
@@ -184,12 +190,26 @@
 }
 
 .hero__caption > h1 {
-	font-size: var(--title);
+	hyphens: none;
+	font-family: "Trajan";
+	font-size: var(--subtitle);
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0px 0px 4px rgba(255,255,255,0.78);
+	margin-left: 400px;
+	border-top: white 2px solid;
+	border-bottom: white 2px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 4px;
 }
 
 .hero__caption > h2 {
 	font-size: var(--subheader);
 	margin-top: 0.45rem;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* CTA */

@@ -59,6 +59,16 @@
 		font-size: 1rem;
 	}
 
+	.hero__caption > h1 {
+		margin-left: 0rem;
+		font-size: var(--header);
+	}
+	
+	.header__title__link {
+		display: none;
+		visibility: hidden;
+	}	
+
 	.menu {
 		display: none;
 		visibility: hidden;
