@@ -9,7 +9,7 @@
   	font-family: "Kartago";
 	src:
 		url("/fonts/Kartago.ttf") format("ttf"),
-		url("/fonts/Kartago.woff") format("woff");
+		url("/fonts/Kartago.woff") format("woff");{}
 }
 
 @font-face {
@@ -24,6 +24,10 @@
 	src:
 		url("/fonts/Trajan-Pro-Regular.woff") format("woff");
 }
+body {
+	hyphens: none;
+}
+
 
 /* HEADER */
 .header {
@@ -304,8 +308,6 @@
 
 .post__body {
 	margin: 1.75rem 24% 0.75rem;
-	font-family: 'Verveine';
-	font-size: 2em;
 	color: black;
 }
 
